@@ -1,0 +1,6 @@
+val leeky = Map("name" -> "kyungyong", "works-for" -> 2, "likes" -> "playing with kids")
+leeky.get("name")
+leeky("likes")
+leeky getOrElse(age, 100)
+leeky contains("height")
+leeky + ("works-at" -> "KMU")
